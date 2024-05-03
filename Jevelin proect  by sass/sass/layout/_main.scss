@@ -1,0 +1,125 @@
+main {
+    margin-top: 5rem;
+
+    .about {
+        .about-right {
+            margin-top: 10rem;
+        }
+
+        img {
+            border-radius: 24px;
+            height: 120vh;
+        }
+
+        span {
+            background-color: $black-color;
+            color: $white-color;
+            font-size: 14px;
+            font-weight: $font-weight-bold;
+            padding: 5px 7px;
+            border-radius: 10px;
+        }
+
+        .about-title {
+            font-size: 60px;
+            font-weight: $font-weight-bold;
+        }
+
+        .about-subtitle {
+            line-height: 34px;
+            font-size: 18px;
+            color: $wc-subtext;
+        }
+
+        .about-bottom {
+            color: $wc-secondary-text;
+            font-weight: $font-weight-bold;
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+
+
+    }
+
+    .offers {
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        .row {
+            padding-top: 100px;
+        }
+
+        .offers-span {
+            color: $white-color;
+            background-color: #a00;
+            border-radius: 5px;
+            font-size: 12px;
+            padding: 5px 10px;
+        }
+
+        .offers-left__title {
+            font-size: 38px;
+        }
+
+        .offers-left__span {
+            color: $wc-subtext;
+            border: 1px solid $wc-subtext;
+            border-radius: 15px;
+            padding: 5px 15px;
+            margin: 0px 5px;
+        }
+
+        .offers-left__subtitle {
+            line-height: 28px;
+            color: $wc-secondary-text;
+        }
+
+        .offers-bottom {
+            font-size: 34px;
+            font-weight: bold;
+        }
+        
+        button {
+            color: $white-color;
+            background-color: $black-color;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin-left: 200px;
+            
+        }
+
+        .col-3 {
+            background-color: #fbf8f6;
+            text-align: center;
+            border-radius: 24px;
+            margin-bottom: 30px;
+            margin-right: 18px;
+
+
+            h3 {
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            p {
+                background-color: $wc-red;
+                font-size: 20px;
+                color: $white-color;
+                font-weight: $font-weight-bold;
+                border-radius: 24px;
+                padding: 7px 18px;
+                margin-top: 15px;
+                display: inline-block;
+            }
+        }
+
+    }
+}

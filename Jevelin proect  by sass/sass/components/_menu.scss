@@ -1,0 +1,21 @@
+.nav {
+    padding: 30px;
+    color: $white-color;
+    
+    .nav-menu {
+        padding-top: 5px;
+    }
+
+    .nav-menu__link {
+        justify-content: space-between;
+        padding: 0px 15px;
+        color: $white-color;   
+        font-weight: $font-weight-bold;     
+    }
+
+    .nav__brand {
+        padding-bottom: 20px;
+    }
+
+
+}
